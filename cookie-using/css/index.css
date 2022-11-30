@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Comic-Font";
+    src: url("/c-fonts/baksosapi.ttf");
+}
+
+body {
+    background-color: #131313;
+    color: #7c00cf;
+    font-family: "Comic-Font";
+    font-size: 15px;
+    touch-action: manipulation;
+}
+
+a {
+    color: #b648ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inTitle {
+    font-size: 20px;
+    text-decoration: underline;
+}

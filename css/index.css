@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Comic-Font";
+    src: url("/c-fonts/baksosapi.ttf");
+}
+
+body {
+    background-color: #131313;
+    color: #7c00cf;
+    font-family: "Comic-Font";
+    touch-action: manipulation;
+    /** margin: auto;
+    max-width: 550px; **/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+button {
+    text-align: center;
+    background-color: #232323;
+    color: #7c00cf;
+    border-color: #333333;
+    border-width: 3px;
+    font-family: "Comic-Font";
+    touch-action: manipulation;
+    border-radius: 10px;
+}
+
+button:hover {
+    text-decoration: underline;
+    border-color: #7c00cf;
+    border-radius: 15px;
+}
+
+button:disabled {
+    text-align: center;
+    background-color: #232323;
+    color: #654779;
+    border-color: #333333;
+    border-radius: 10px;
+}
+
+button:disabled:hover {
+    text-decoration: line-through;
+    border-color: #654779;
+    border-radius: 10px;
+}
+
+a {
+    color: #b648ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rankNum {
+    color: #ff0000;
+    font-size: 120%;
+}
+
+.rankTxt {
+    font-size: 150%;
+}
+
+.slBtns {
+    border-width: 4px;
+    font-size: 120%;
+}
+
+.rBtn {
+    border-width: 4px;
+    font-size: 120%;
+    color: #ff0000;
+}
+
+.rBtn:hover {
+    text-decoration: underline;
+    border-color: #ff0000;
+}
+
+.inTitle {
+    font-size: 220%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 80%;
+    background-color: #101010;
+    text-align: center;
+}
+
+.clicker {
+    font-size: 150%;
+    border-width: 8px;
+}
+
+.clickerNum {
+    font-size: 120%;
+    color: #ff0000;
+}
+
+.clickerNum:hover {
+    text-decoration: underline;
+}
+
+.btnBought:disabled {
+    text-align: center;
+    background-color: #232323;
+    color: #046900;
+    border-color: #333333;
+    border-radius: 10px;
+}
+
+.btnBought:disabled:hover {
+    text-decoration: line-through;
+    border-color: #046900;
+    border-radius: 10px;
+}
+
+@media (max-height: 800px) {
+    .allStats {
+        display: none;
+    }
+}

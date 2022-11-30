@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOXIC's Clicker</title>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+<body>
+    <h1>TOXIC's Clicker!</h1>
+    <p id="rank" class="rankTxt">Rank: <span class="rankNum">0</span></p>
+    <button onclick="clicker()" id="clicker" class="clicker">click me to start!</button>
+    <p class="inTitle">----- Options -----</p>
+    <button class="slBtns" onclick="saveClicks()">save clicks</button>
+    <button class="slBtns" onclick="loadClicks()">load clicks</button>
+    <button class="rBtn" onclick="resetClicks()">reset</button>
+    <p class="inTitle">----- Cheat Store -----</p>
+    <button onclick="x2C()" id="r1B" disabled=true>x2 clicks | Rank 1</button>
+    <button onclick="x5C()" id="r2B" disabled=true>x5 clicks | Rank 2</button>
+    <button onclick="x35C()" id="r3B" disabled=true>x35 clicks | Rank 3</button>
+    <br>
+    <button onclick="x70C()" id="r4B" disabled=true>x70 clicks | Rank 4</button>
+    <button onclick="x100C()" id="r5B" disabled=true>x100 clicks | Rank 5</button>
+    <button onclick="x250C()" id="r6B" disabled=true>x250 clicks | Rank 6</button>
+    <div class="allStats">
+        <p class="inTitle">----- All Stats -----</p>
+        <p id="cClicks">Currrently not loaded! start to load!</p>
+        <p id="sClicks"></p>
+        <p id="cRank"></p>
+        <p id="cMult"></p>
+    </div>
+    <p class="inTitle">----- Other -----</p>
+    <p>We're using <a href="cookie-using">cookies</a> to save your stats!</p>
+    <p>If you use our site, you accept our <a href="cookie-using">cookie using</a>!</p>
+    <p>About <a href="/">us (CFT Development)</a></p>
+    <a href="/"><img src="img/tcl.png" width=4%></a>
+</body>
+</html>
